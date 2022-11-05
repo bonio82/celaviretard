@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: rgb(19, 19, 19);
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.prvidio .drugidio {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.titlecontainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100vh;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: rgb(19, 19, 19);
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 19px;
+  font: none;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5865F2;
+  color: white;
+}
